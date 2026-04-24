@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apk update
-sudo apk add sl
-echo "export PATH=\$PATH:/usr/bin" >> ~/.bashrc
-echo "export PATH=\$PATH:/usr/bin" >> ~/.zshrc
+sudo apt-get update
+sudo apt-get install sl
+echo "export PATH=\$PATH:/usr/games" >> ~/.bashrc
+echo "export PATH=\$PATH:/usr/games" >> ~/.zshrc
